@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submission Form</title>
+    <link rel="stylesheet" href="screen1.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="redCard/logo.png" alt="Logo" class="logo-image" />
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="left-side">
+        <h1 class="hey">Submission</h1>
+        <div class="para">
+          <p>
+            All details of submissions will be kept strictly private and <br />
+            confidential by Mailman and will not be used for any purpose <br />
+            other than judging Red Card 2018 winners.
+            <input type="button" name="" id="" class="check1" />
+          </p>
+          <h1 class="dec">Applications will close on the 15th December 2017</h1>
+          <input type="button" name="" id="" class="check2" />
+        </div>
+      </div>
+
+      <!-- Right side form -->
+      <div class="right-side">
+        <form>
+          <div class="input-group">
+            <!-- <label for="name">Name</label> -->
+            <input
+              type="text"
+              id="name"
+              name="Name"
+              placeholder="name"
+              required
+            />
+          </div>
+
+          <div class="input-group">
+            <!-- <label for="email">Email Address</label> -->
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+
+          <div class="input-group">
+            <!-- <label for="organization">Organization</label> -->
+            <input
+              type="text"
+              id="organization"
+              name="organization"
+              placeholder="Organization"
+              required
+            />
+          </div>
+
+          <div class="checkbox-group">
+            <label style="color: black; font-weight: bold">Which Award</label>
+            <p>
+              Please tick and provide details for all of the awards you would
+              like to be nominated for.
+            </p>
+
+            <div>
+              <input
+                type="checkbox"
+                id="best_livestream"
+                name="award"
+                value="best_livestream"
+              />
+              <label for="best_livestream">Best Livestream</label>
+              <!-- <input type="checkbox" name="award" id="after1" /> -->
+              <button id="after1">+</button>
+              <div class="description">
+                <textarea
+                  name="livestream_description"
+                  placeholder="Description & Results (max. 150 words)"
+                ></textarea>
+              </div>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+               
+              />
+              <label for="best_tour_campaign">Best Tour Campaign</label>
+              <!-- <input type="checkbox" name="award" id="after" /> -->
+              <button id="after">+</button>
+              <div class="description">
+                <textarea
+                  name="tour_campaign_description"
+                  placeholder="Description & Results (max. 150 words)"
+                ></textarea>
+              </div>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                id="best_livestream"
+                name="award"
+                value="best_sponsor_activation"
+              />
+              <label for="best_sponsor_activation"
+                >Best Sponsor Activation</label
+              >
+              <!-- <input type="checkbox" name="award" id="after2" /> -->
+              <button id="after2">+</button>
+
+              <div class="description">
+                <textarea
+                  name="sponsor_activation_description"
+                  placeholder="Description & Results (max. 150 words)"
+                ></textarea>
+              </div>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                id="best_livestream"
+                name="award"
+                value="best_use_of_technology"
+              />
+              <label for="best_use_of_technology">Best Use of Technology</label>
+              <!-- <input type="checkbox" name="award" id="after3" /> -->
+              <button id="after3">+</button>
+              <div class="description">
+                <textarea
+                  name="technology_description"
+                  placeholder="Description & Results (max. 150 words)"
+                ></textarea>
+              </div>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                id="best_livestream"
+                name="award"
+                value="best_online_campaign"
+              />
+              <label for="best_online_campaign">Best Online Campaign</label>
+              <!-- <input type="checkbox" name="award" class="after4" /> -->
+              <button class="after4">+</button>
+              <div class="description">
+                <textarea
+                  name="online_campaign_description"
+                  placeholder="Description & Results (max. 150 words)"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="submit-button">
+            ✔ Submission Successful
+          </button>
+        </form>
+      </div>
+    </div>
+    <div style="height: 10px; background-color: white"></div>
+  </body>
+</html>
