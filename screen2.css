@@ -1,110 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  .container {
-    width: 100%;
-  }
-  
-  .header {
-    padding: 20px;
-    background: linear-gradient(to bottom right, #8d2b2b 90%, white 10%);
-    height: 100vh;
-    color: #fff;
-  }
-  
-  .logo {
-    width: 150px;
-    height: 150px;
-    margin-left: 50px;
-  }
-  
-  .title {
-    font-size: 100px;
-    margin: 10px 50px;
-  }
-  
-  .subtitle {
-    font-size: 50px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-  }
-  
-  .description {
-    width: 90%;
-    font-size: 30px;
-    margin-left: 50px;
-  }
-  
-  .best-clubs-section {
-    padding: 20px;
-  }
-  
-  .best-clubs {
-    padding: 20px;
-    margin-left: 60px;
-  }
-  
-  .section-title {
-    font-size: 50px;
-    color: #000;
-  }
-  
-  .icon-award {
-    width: 50px;
-    height: 50px;
-    vertical-align: middle;
-    margin-right: 10px;
-  }
-  
-  .clubs {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 100px;
-    padding: 10px 0;
-  }
-  
-  .club {
-    text-align: center;
-  }
-  
-  .club-logo {
-    width: 260px;
-    height: 260px;
-  }
-  
-  .club-text {
-    color: red;
-    margin-top: 10px;
-    font-size: 40px;
-  }
-  
-  .club-subtext {
-    color: black;
-  }
-  
-  .footer {
-  
-      /* background-color: #8B0A0A; */
-      background-color: #8B0A0A;
-      color: white;
-      padding: 50px;
-      font-size: 1.5em;
-      /* text-align: center; */
-      position: relative;
-      /* padding: 0; */
-      /* margin-left: 0px; */
-      clip-path: polygon(0 0, 100% 0, 100% calc(87% - 118px), calc(93% - 63px) 100%, 0 100%);
-      padding-left: 292px;
+    box-sizing: border-box;
 }
-  
-  .footer p{
-    margin-left: 50px;
 
-  }
+body {
+    font-family: "Libre Franklin", sans-serif;
+}
+
+header {
+    background-color: #8b3030;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+    padding: 63px 129px;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 90% 100%, 0 100%);
+}
+
+header img {
+    width: 163px;
+    height: 163px;
+    object-fit: contain;
+    margin-bottom: 29px;
+}
+
+.intro-paragraph {
+    font-size: 25px;
+    margin-bottom: 49px;
+    font-weight: 300;
+    color: white;
+}
+
+.intro-paragraph-secondary {
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 90px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 52px;
+    font-weight: 800;
+    margin-bottom: 49px;
+}
+
+.award-heading {
+    display: flex;
+    margin: 20px 0;
+    gap: 12px;
+    margin-bottom: 47px;
+}
+
+.triangle-shape {
+    width: 55px;
+    height: 52px;
+    background-color: #8B1D29;
+    clip-path: polygon(80% 0, 0 100%, 83% 100%);
+    margin-right: 10px;
+    margin-top: 13px;
+}
+
+.award-title,
+.award-subtitle {
+    font-size: 70px;
+    font-weight: 900;
+    color: #333;
+}
+
+.award-image {
+    width: 114px;
+    height: 114px;
+    margin-left: 1rem;
+}
+
+main {
+    padding-left: 119px;
+    padding-top: 119px;
+}
+
+#text1 {
+    color: #9b3036;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: -3px;
+}
+
+#text2 {
+    color: black;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 31px;
+}
+
+.award-container {
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+}
+
+.main-content {
+    padding-bottom: 117px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #8b3030;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+    padding: 63px 129px;
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 90% 100%, 0 100%);
+    color: white;
+}
+
+.footer-line1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.footer-line2,
+.footer-line3 {
+    font-size: 50px;
+    font-weight: 800;
+}
